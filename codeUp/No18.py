@@ -1,0 +1,3 @@
+time = input()
+
+print(time)
