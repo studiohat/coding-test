@@ -1,13 +1,11 @@
 a = int(input())
-b = input()
+b = list(input())
 
-result = a * int(b)
+print(a * int(b[2]))
+print(a * int(b[1]))
+print(a * int(b[0]))
 
-b = list(b)
-b.reverse()
+b = ''.join(b)
+b = int(b)
 
-for i in b:
-    mResult = int(i)*a
-    print(mResult)
-
-print(result)
+print(a*b)
